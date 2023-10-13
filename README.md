@@ -1,16 +1,7 @@
-# ui_challenge
+# This is HeyFlutter UI challenge Project
 
-A new Flutter project.
+This is the required UI
 
-## Getting Started
+<img width="2400" alt="first" src="https://github.com/Melloss/ui_challenge/assets/101984338/d7bfff86-55bf-47a5-85ca-5e27c623e4de">
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="2400" alt="second" src="https://github.com/Melloss/ui_challenge/assets/101984338/ac4faced-8f5e-4979-bdbb-71db6a1f1363">
