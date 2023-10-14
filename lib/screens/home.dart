@@ -159,8 +159,8 @@ class _HomeState extends State<Home> with ColorPallet {
         onTap: () {
           Get.to(
             () => PlantDetail(id: id),
-            transition: Transition.leftToRightWithFade,
-            duration: const Duration(milliseconds: 1000),
+            transition: Transition.rightToLeftWithFade,
+            duration: const Duration(milliseconds: 800),
           );
         },
         child: Container(
@@ -177,10 +177,13 @@ class _HomeState extends State<Home> with ColorPallet {
               SizedBox(
                 height: 180,
                 width: 200,
-                child: Image.asset(
-                  uiController.plants[id].images![0],
-                  fit: BoxFit.cover,
-                  alignment: Alignment.center,
+                child: Hero(
+                  tag: 'plant-$id',
+                  child: Image.asset(
+                    uiController.plants[id].images![0],
+                    fit: BoxFit.cover,
+                    alignment: Alignment.center,
+                  ),
                 ),
               ),
               Padding(

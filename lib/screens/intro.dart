@@ -94,7 +94,7 @@ class _IntroState extends State<Intro> with ColorPallet {
     return AnimatedContainer(
       duration: const Duration(milliseconds: 300),
       margin: const EdgeInsets.only(right: 10),
-      width: currentSlideIndex == bulletId ? 25 : 8,
+      width: currentSlideIndex == bulletId ? 20 : 8,
       height: 8,
       decoration: BoxDecoration(
         color: currentSlideIndex == bulletId
