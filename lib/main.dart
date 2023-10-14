@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import './screens/intro.dart';
 import './helper/color_pallet.dart';
 import './helper/init_controllers.dart' as controllers;
+import '../controllers/ui_controller.dart';
 
 class App extends StatelessWidget with ColorPallet {
   App({super.key});
@@ -63,5 +64,7 @@ class App extends StatelessWidget with ColorPallet {
 
 main() {
   controllers.init();
+  UIController uiController = Get.find();
+  uiController.initPlants();
   runApp(App());
 }
