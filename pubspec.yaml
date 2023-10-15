@@ -38,6 +38,10 @@ dependencies:
   google_fonts: ^6.1.0
   get: ^4.6.6
   icons_plus: ^4.0.0
+  url_launcher: ^6.1.14
+  http: ^1.1.0
+
+
 
 dev_dependencies:
   flutter_test:

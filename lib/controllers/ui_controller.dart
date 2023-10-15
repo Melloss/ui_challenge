@@ -3,6 +3,10 @@ import '../models/plants.dart';
 
 class UIController extends GetxController {
   List<Plant> plants = [];
+  RxList orderedPlantsId = [].obs;
+  RxMap numberofOrdered = {}.obs;
+  RxDouble totalPrice = 0.0.obs;
+
   initPlants() {
     for (int i = 0; i < plantsList.length; i++) {
       Plant plant = Plant(
@@ -23,6 +27,5 @@ class UIController extends GetxController {
       );
       plants.add(plant);
     }
-    print(plants[0].name);
   }
 }
